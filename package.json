@@ -1,0 +1,24 @@
+{
+    "name": "soundtouch",
+    "main": "soundtouch.js",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@192.168.0.50/~/repo/soundtouch.git"
+    },
+    "keywords": [
+        "functional"
+    ],
+    "author": "Dr. Bernd Franke <dr.bernd.franke@gmail.com>",
+    "contributors": [],
+    "dependencies": {
+        "node-ssdp": "^3.2.5",
+        "request": "^2.83.0",
+        "request-promise-native": "^1.0.5",
+        "xml2js": "^0.4.19"
+    },
+    "scripts": {
+        "start": "node soundtouch.js",
+        "stop": "echo ... stopping"
+    }
+}
