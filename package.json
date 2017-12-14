@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "ssh://git@192.168.0.50/~/repo/soundtouch.git"
+        "url": "ssh://git@repo.dr-bernd-franke.de/~/repo/soundtouch.git"
     },
     "keywords": [
         "functional"
