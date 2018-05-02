@@ -1,24 +1,15 @@
 {
-    "name": "soundtouch",
-    "main": "soundtouch.js",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "ssh://git@repo.dr-bernd-franke.de/~/repo/soundtouch.git"
-    },
-    "keywords": [
+    "name": "soundtouch", "main": "soundtouch.js", "version": "1.0.0", "repository": {
+        "type": "git", "url": "ssh://git@repo.dr-bernd-franke.de/~/repo/soundtouch.git"
+    }, "keywords": [
         "functional"
-    ],
-    "author": "Dr. Bernd Franke <dr.bernd.franke@gmail.com>",
-    "contributors": [],
-    "dependencies": {
-        "node-ssdp": "^3.2.5",
-        "request": "^2.83.0",
-        "request-promise-native": "^1.0.5",
-        "xml2js": "^0.4.19"
-    },
-    "scripts": {
-        "start": "node soundtouch.js",
-        "stop": "echo ... stopping"
+    ], "author": "Dr. Bernd Franke <dr.bernd.franke@gmail.com>", "contributors": [], "dependencies": {
+        "eslint": "^4.19.1", "eslint-config-strongloop": "^2.1.0", "eslint-plugin-async-await": "0.0.0", "eslint-plugin-json": "^1.2.0", "eslint-plugin-promise": "^3.7.0", "gulp": "^3.9.1", "gulp-eslint": "^4.0.2", "gulp-plugin": "0.0.18", "node-ssdp": "^3.2.5", "request": "^2.83.0", "request-promise-native": "^1.0.5", "xml2js": "^0.4.19"
+    }, "scripts": {
+        "start": "node soundtouch.js", "stop": "echo ... stopping"
+    }, "eslintConfig": {
+        "env": {
+            "es6": true, "node": true
+        }
     }
 }
