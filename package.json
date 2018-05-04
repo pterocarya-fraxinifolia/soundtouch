@@ -28,7 +28,7 @@
   "name": "soundtouch",
   "repository": {
     "type": "git",
-    "url": "ssh://git@repo.dr-bernd-franke.de/~/repo/soundtouch.git"
+    "url": "ssh://git@repo.fritz.box/~/repo/soundtouch.git"
   },
   "scripts": {
     "fix": "eslint --fix ./*.js ./test/*.js && jsonlint -spi package.json",
